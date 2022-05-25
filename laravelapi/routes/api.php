@@ -15,7 +15,7 @@ use App\Http\Controllers\API\StudentController;
 |
 */
 
-// Student API
+// Student's API
 Route::post('/add-student', [StudentController::class, 'store']);
 Route::get('/students', [StudentController::class, 'index']);
 Route::get('/edit-student/{id}', [StudentController::class, 'edit']);
